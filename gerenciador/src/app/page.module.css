@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+  }
+  
+  .loading {
+    width: 88px;
+    height: 88px;
+    margin: 64px;
+  }
+  
+  .loadingText {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .title {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  
+  .logoutButton {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
+  .container {
+    position: relative;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .userId {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  

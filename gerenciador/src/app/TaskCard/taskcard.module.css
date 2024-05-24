@@ -1,0 +1,32 @@
+.card {
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .dates {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  .dates span:first-child {
+    margin-right: 10px; 
+  }
+  
+  .description {
+    margin-top: 8px;
+  }
+  
+  .completed {
+    border: 2px solid green;
+  }
+  
+  .incomplete {
+    border: 2px solid red;
+  }
+  
